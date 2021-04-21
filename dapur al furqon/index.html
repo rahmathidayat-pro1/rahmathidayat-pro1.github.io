@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2f11a8a1b2.js" crossorigin="anonymous"></script>
+    <script>
+        function stickymenu () {
+            var sticky=document.getElementById('sticky');
+            if (window.pageYOffset > 220) {
+                sticky.classList.add ('sticky');
+
+            }
+            else {
+                sticky.classList.remove ('sticky');
+
+            }
+        }
+
+        window.onscroll=function () {
+            stickymenu ();
+        }
+    </script>
+
+    </head>
+<body>
+<div class="parallax">
+    <div class="page-title"> daftar menu </div>
+</div>
+<div class="menu" id="sticky">
+    <ul class="menu-ul">
+        <a href="Home" class="a-menu"><li> Home</li></a>
+        <a href="deals" class="a-menu"><li>deals</li></a>
+        <a href="Vegetable" class="a-menu"><li>vegetable</li></a>
+        <a href="Fruits" class="a-menu"><li>Fruits</li></a>
+        <a href="Cart" class="a-menu"><li> Cart</li></a>
+        <a href="Meat" class="a-menu"><li> meat</li></a>
+
+        
+    </ul>
+<div class="search-box">
+    <form>
+        <input type="text" placeholder="search...." name="search" class="search-input"/>
+        <button type="submit"> <i class="fa fa-search"></i>
+         
+        
+
+        </button>
+    </form>
+    </div>
+    </div>
+
+
+    <!--home page begins-->
+    <div class="container">
+        <a href="#sayur">
+            <div class="categories">
+                <img src="img/daftar menu/sayur.jpg" class="item-image"/>
+                <div class="image-title"> SAYUR</div>
+            </div>
+        </a>
+
+        <a href="#buah-buahan">
+            <div class="categories">
+                <img src="img/daftar menu/buah-buahan.jpg" class="item-image"/>
+                <div class="image-title"> BUAH BUAHAN</div>
+            </div>
+        </a>
+
+        <a href="#daging">
+            <div class="categories">
+                <img src="img/daftar menu/daging.jpg" class="item-image"/>
+                <div class="image-title"> DAGING</div>
+            </div>
+        </a>
+
+        <a href="#diskon">
+            <div class="categories">
+                <img src="img/daftar menu/diskon.jpg" class="item-image"/>
+                <div class="image-title"> DISKON%</div>
+            </div>
+        </a>
+    </div>
+    <!--deal begins here-->
+    <div class="box3" id="diskon">
+        <div class="parallax">
+            <div class="title">
+                DISKON %
+            </div>
+        </div>
+        <div class="deal">
+            diskon 10% minimal pembelian dalam 150 k di vegetable<br>
+            <button class="coupon-btn"> add coupon</button>
+       </div>
+
+       <div class="deal-2">
+        diskon 20% minimal pembelian dalam 150 k di fruits <br>
+        <button class="coupon-btn"> add coupon</button>
+      </div>
+
+       <div class="deal-3">
+       diskon 30% minimal pembelian dalam 150 k di meat and seafood <br>
+       <button class="coupon-btn"> add coupon</button>
+      </div>
+
+      <!--deal ends here-->
+
+      <!--veg begins here-->
+      <section class="box1" id="sayur">
+          <div class="parallax">
+              <div class="title"> SAYUR SAYURAN</div>
+          </div>
+      <div class="items">
+          <div class="images">
+              <img src="img/item/sayur/sayur jagung.jpg" class="item-image-size"/>
+
+          </div>
+          <div class="description">
+              <b> sayur jagung</b> <br>
+              <div class="item-select">
+                  harga :5000 rupiah /mangkok 
+              </div>
+              <label>banyak</label>
+              <select class="item-select">
+                  <option>1 mangkok</option>
+                  <option>2 mangkok</option>
+                  <option>3 mangkok</option>
+                  <option>4 mangkok</option>
+
+              </select><br>
+              <button class="buynow-btn">beli sekarang</button>
+          </div>
+      </div>
+
+          <div class="items">
+            <div class="images">
+                <img src="img/item/sayur/sayur kangkung.jpg" class="item-image-size"/>
+  
+            </div>
+            <div class="description">
+                <b> sayur kangkung</b> <br>
+                <div class="item-select">
+                    harga :6000 rupiah /mangkok 
+                </div>
+                <label>banyak</label>
+                <select class="item-select">
+                    <option>1 mangkok</option>
+                    <option>2 mangkok</option>
+                    <option>3 mangkok</option>
+                    <option>4 mangkok</option>
+  
+                </select><br>
+                <button class="buynow-btn">beli sekarang</button>
+            </div>
+            </div>
+
+            <div class="items">
+                <div class="images">
+                    <img src="img/item/sayur/sayur nangka.jpg" class="item-image-size"/>
+      
+                </div>
+                <div class="description">
+                    <b> sayur nangka</b> <br>
+                    <div class="item-select">
+                        harga :5000 rupiah /mangkok 
+                    </div>
+                    <label>banyak</label>
+                    <select class="item-select">
+                        <option>1 mangkok</option>
+                        <option>2 mangkok</option>
+                        <option>3 mangkok</option>
+                        <option>4 mangkok</option>
+      
+                    </select><br>
+                    <button class="buynow-btn">beli sekarang</button>
+                </div>
+                </div>
+
+                <div class="items">
+                    <div class="images">
+                        <img src="img/item/sayur/sayur tahu.jpg" class="item-image-size"/>
+          
+                    </div>
+                    <div class="description">
+                        <b> sayur tahu</b> <br>
+                        <div class="item-select">
+                            harga :5000 rupiah /mangkok 
+                        </div>
+                        <label>banyak</label>
+                        <select class="item-select">
+                            <option>1 mangkok</option>
+                            <option>2 mangkok</option>
+                            <option>3 mangkok</option>
+                            <option>4 mangkok</option>
+          
+                        </select><br>
+                        <button class="buynow-btn">beli sekarang</button>
+                    </div>
+                    </div>
+                    <div class="items">
+                        <div class="images">
+                            <img src="img/item/sayur/sayur kentang.jpg" class="item-image-size"/>
+              
+                        </div>
+                        <div class="description">
+                            <b> sayur kentang</b> <br>
+                            <div class="item-select">
+                                harga :5000 rupiah /mangkok 
+                            </div>
+                            <label>banyak</label>
+                            <select class="item-select">
+                                <option>1 mangkok</option>
+                                <option>2 mangkok</option>
+                                <option>3 mangkok</option>
+                                <option>4 mangkok</option>
+              
+                            </select><br>
+                            <button class="buynow-btn">beli sekarang</button>
+                        </div>
+                        </div>
+
+                        <div class="items">
+                            <div class="images">
+                                <img src="img/item/sayur/sayur buncis.jpg" class="item-image-size"/>
+                  
+                            </div>
+                            <div class="description">
+                                <b> sayur buncis</b> <br>
+                                <div class="item-select">
+                                    harga :5000 rupiah /mangkok 
+                                </div>
+                                <label>banyak</label>
+                                <select class="item-select">
+                                    <option>1 mangkok</option>
+                                    <option>2 mangkok</option>
+                                    <option>3 mangkok</option>
+                                    <option>4 mangkok</option>
+                  
+                                </select><br>
+                                <button class="buynow-btn">beli sekarang</button>
+                            </div>
+                            </div>
+          
+      
+  
+
+                     </div> 
+                    </section>
+      <!--veg end here-->
+
+            <!--fruits begins here-->
+            <section class="box2" id="buah-buahan">
+                <div class="parallax">
+                    <div class="title"> BUAH BUAHAN</div>
+                </div>
+            </div>
+            <div class="items">
+                <div class="images">
+                    <img src="img/item/buah-buahan/alpukat.jpg" class="item-image-size"/>
+      
+                </div>
+                <div class="description">
+                    <b> alpukat</b> <br>
+                    <div class="item-select">
+                        harga :5000 rupiah /buah 
+                    </div>
+                    <label>banyak</label>
+                    <select class="item-select">
+                        <option>1 buah</option>
+                        <option>2 buah</option>
+                        <option>3 buah</option>
+                        <option>4 buah</option>
+      
+                    </select><br>
+                    <button class="buynow-btn">beli sekarang</button>
+                </div>
+            </div>
+      
+                <div class="items">
+                  <div class="images">
+                      <img src="img/item/buah-buahan/anggur.jpg" class="item-image-size"/>
+        
+                  </div>
+                  <div class="description">
+                      <b> anggur</br> <br>
+                      <div class="item-select">
+                          harga :10000 rupiah /box
+                      </div>
+                      <label>banyak</label>
+                      <select class="item-select">
+                          <option>1 box</option>
+                          <option>2 box</option>
+                          <option>3 box</option>
+                          <option>4 box</option>
+        
+                      </select><br>
+                      <button class="buynow-btn">beli sekarang</button>
+                  </div>
+                  </div>
+      
+                  <div class="items">
+                      <div class="images">
+                          <img src="img/item/buah-buahan/apel.jpg" class="item-image-size"/>
+            
+                      </div>
+                      <div class="description">
+                          <b> apel</b> <br>
+                          <div class="item-select">
+                              harga :5000 rupiah /buah 
+                          </div>
+                          <label>banyak</label>
+                          <select class="item-select">
+                              <option>1 buah</option>
+                              <option>2 buah</option>
+                              <option>3 buah</option>
+                              <option>4 buah</option>
+            
+                          </select><br>
+                          <button class="buynow-btn">beli sekarang</button>
+                      </div>
+                      </div>
+      
+                      <div class="items">
+                          <div class="images">
+                              <img src="img/item/buah-buahan/pisang.jpg" class="item-image-size"/>
+                
+                          </div>
+                          <div class="description">
+                              <b> pisang</b> <br>
+                              <div class="item-select">
+                                  harga :5000 rupiah /sisir
+                              </div>
+                              <label>banyak</label>
+                              <select class="item-select">
+                                  <option>1 sisir</option>
+                                  <option>2 sisir</option>
+                                  <option>3 sisir</option>
+                                  <option>4 sisir</option>
+                
+                              </select><br>
+                              <button class="buynow-btn">beli sekarang</button>
+                          </div>
+                          </div>
+
+                          <div class="items">
+                            <div class="images">
+                                <img src="img/item/buah-buahan/jambu.jpeg" class="item-image-size"/>
+                  
+                            </div>
+                            <div class="description">
+                                <b> jambu</b> <br>
+                                <div class="item-select">
+                                    harga :5000 rupiah /buah
+                                </div>
+                                <label>banyak</label>
+                                <select class="item-select">
+                                    <option>1 buah</option>
+                                    <option>2 buah</option>
+                                    <option>3 buah</option>
+                                    <option>4 buah</option>
+                  
+                                </select><br>
+                                <button class="buynow-btn">beli sekarang</button>
+                            </div>
+                            </div>
+
+
+                            <div class="items">
+                                <div class="images">
+                                    <img src="img/item/buah-buahan/nangka.jpg" class="item-image-size"/>
+                      
+                                </div>
+                                <div class="description">
+                                    <b> nangka</b> <br>
+                                    <div class="item-select">
+                                        harga :5000 rupiah /sisir
+                                    </div>
+                                    <label>banyak</label>
+                                    <select class="item-select">
+                                        <option>1 sisir</option>
+                                        <option>2 sisir</option>
+                                        <option>3 sisir</option>
+                                        <option>4 sisir</option>
+                      
+                                    </select><br>
+                                    <button class="buynow-btn">beli sekarang</button>
+                                </div>
+                                </div>
+                
+            
+        
+      
+                           </div>
+            </section>
+                        
+            <!--fruits end here-->
+
+
+            <!--meat begins here-->
+                        <section class="box3" id="daging">
+                            <div class="parallax">
+                                <div class="title"> DAGING</div>
+                            </div>
+                        </div>
+                        <div class="items">
+                            <div class="images">
+                                <img src="img/item/daging/ayam bakar.jpg" class="item-image-size"/>
+                  
+                            </div>
+                            <div class="description">
+                                <b> ayam bakar</b> <br>
+                                <div class="item-select">
+                                    harga :5000 rupiah / daging
+                                </div>
+                                <label>banyak</label>
+                                <select class="item-select">
+                                    <option>1 daging</option>
+                                    <option>2 daging</option>
+                                    <option>3 daging</option>
+                                    <option>4 daging</option>
+                  
+                                </select><br>
+                                <button class="buynow-btn">beli sekarang</button>
+                            </div>
+                        </div>
+                  
+                            <div class="items">
+                              <div class="images">
+                                  <img src="img/item/daging/ayam goreng.jpg" class="item-image-size"/>
+                    
+                              </div>
+                              <div class="description">
+                                  <b> ayam goreng</br> <br>
+                                  <div class="item-select">
+                                      harga :6000 rupiah /daging
+                                  </div>
+                                  <label>banyak</label>
+                                  <select class="item-select">
+                                      <option>1 daging</option>
+                                      <option>2 daging</option>
+                                      <option>3 daging</option>
+                                      <option>4 daging</option>
+                    
+                                  </select><br>
+                                  <button class="buynow-btn">beli sekarang</button>
+                              </div>
+                              </div>
+                  
+                              <div class="items">
+                                  <div class="images">
+                                      <img src="img/item/daging/bebek goreng.jpeg" class="item-image-size"/>
+                        
+                                  </div>
+                                  <div class="description">
+                                      <b> bebek goreng</b> <br>
+                                      <div class="item-select">
+                                          harga :15000 rupiah /daging 
+                                      </div>
+                                      <label>banyak</label>
+                                      <select class="item-select">
+                                          <option>1 daging</option>
+                                          <option>2 daging</option>
+                                          <option>3 daging</option>
+                                          <option>4 daging</option>
+                        
+                                      </select><br>
+                                      <button class="buynow-btn">beli sekarang</button>
+                                  </div>
+                                  </div>
+                  
+                                  <div class="items">
+                                      <div class="images">
+                                          <img src="img/item/daging/kambing goreng.jpg" class="item-image-size"/>
+                            
+                                      </div>
+                                      <div class="description">
+                                          <b> kambing goreng</b> <br>
+                                          <div class="item-select">
+                                              harga :10000 rupiah /potong
+                                          </div>
+                                          <label>banyak</label>
+                                          <select class="item-select">
+                                              <option>1 potong</option>
+                                              <option>2 potong</option>
+                                              <option>3 potong</option>
+                                              <option>4 potong</option>
+                            
+                                          </select><br>
+                                          <button class="buynow-btn">beli sekarang</button>
+                                      </div>
+                                      </div>
+
+                                      <div class="items">
+                                        <div class="images">
+                                            <img src="img/item/daging/cumi goreng.jpg" class="item-image-size"/>
+                              
+                                        </div>
+                                        <div class="description">
+                                            <b> cumi goreng</b> <br>
+                                            <div class="item-select">
+                                                harga :10000 rupiah /potong
+                                            </div>
+                                            <label>banyak</label>
+                                            <select class="item-select">
+                                                <option>1 potong</option>
+                                                <option>2 potong</option>
+                                                <option>3 potong</option>
+                                                <option>4 potong</option>
+                              
+                                            </select><br>
+                                            <button class="buynow-btn">beli sekarang</button>
+                                        </div>
+                                        </div>
+
+                                        <div class="items">
+                                            <div class="images">
+                                                <img src="img/item/daging/ikan bakar.jpg" class="item-image-size"/>
+                                  
+                                            </div>
+                                            <div class="description">
+                                                <b> ikan bakar</b> <br>
+                                                <div class="item-select">
+                                                    harga :10000 rupiah /potong
+                                                </div>
+                                                <label>banyak</label>
+                                                <select class="item-select">
+                                                    <option>1 potong</option>
+                                                    <option>2 potong</option>
+                                                    <option>3 potong</option>
+                                                    <option>4 potong</option>
+                                  
+                                                </select><br>
+                                                <button class="buynow-btn">beli sekarang</button>
+                                            </div>
+                                            </div>
+                            
+                        
+                    
+                  
+                                       </div>
+                        </section>
+                                    
+                        <!--meat end here-->
+
+    
+      
+           
+
+            
+      
+      
+
+    <!--home page ends-->
+
+
+
+
+    
+
+    
+
+
+</body>
+</html>

@@ -1,0 +1,244 @@
+ /*bagian header*/
+ body {
+    margin: 0;
+    font-family: system-ui;
+}
+.parallax {
+    background-image: url(img/logo/logo.jpg.jpg);
+    height :max-content;
+    background-attachment:scroll;
+    background-position:initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+.page-title {
+    background: rgba(0,0,0,0.5);
+    text-align: center;
+    color: white;
+    padding: 50px;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20px;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.menu {
+  background: #6c9709;
+  text-align: center;
+}
+.menu-ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+}
+.menu-ul li {
+  font-size: 17px;
+  list-style: none;
+  display: inline-block;
+  padding: 25px 25px 26px 25px;
+  
+}
+.a-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-ul li:hover {
+  background: #c20b0b;
+ transform: scale(1.1);
+
+}
+
+.search-box {
+ border: 1px solid white;
+ border-radius: 50px;
+ background: white;
+ width: max-content;
+ display: inline-block;
+ margin: 8px;
+}
+.search-box:hover {
+  box-shadow: 0 0 10px 2px #5b8c5a;
+  border: 1px solid #5b8c5a;
+}
+
+.search-input {
+  width: 250px;
+  border: none;
+  font-size: 16px ;
+  font-variant: small-caps;
+  outline: none;
+  background: transparent;
+  margin: 10px 10px 10px 10px;
+}
+
+i{ font-size: 20px;
+margin: 10px 10px 10px 10px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+/* akhir bagian header */
+
+.container{
+  margin: 50px 50px 50px 5%;
+  width:90%;
+  text-align: center;
+  
+}
+.box1,.box2,.box3 {
+  width: 100%;
+  text-align: center;
+
+}
+
+.categories {
+  width:max-content;
+  margin: 25px;
+  border: 3px solid #e9891c;
+  border-radius: 0 0 50px 50px;
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+.categories:hover,.items:hover {
+  box-shadow: 0 0 10px 3px #1ae73c;
+}
+.item-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 0 0 50px 50px;
+  padding:  10px;
+}
+.image-title {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+a{
+  text-decoration: none;
+  color: #3ab86a;
+  
+}
+
+.title {
+  padding: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: rgb(238, 237, 225);
+  background:linear-gradient(120deg,#41c741 20%, #bb3641 50%, #64db74 80%);
+
+
+ font-family:Arial, Helvetica, sans-serif;}
+
+
+.deal {
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  display: inline-block;
+   margin: 5% 2% 5% 2%;
+  max-width: 20%;
+  background:linear-gradient(120deg,#a7725a 20%, #e7ecea 50%, #b8896e 80%);
+  text-align: center;
+  text-shadow: 1 1 #157415;
+
+}
+
+.deal-2 {
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  display: inline-block;
+   margin: 5% 2% 5% 2%;
+  max-width: 20%;
+  background:linear-gradient(120deg,#bebeb9 20%, #e7ecea 50%, #afafa7 80%);
+  text-align: center;
+text-shadow: 1 1 #157415;
+}
+
+.deal-3{
+  padding: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(8, 8, 8);
+  display: inline-block;
+   margin: 5% 2% 5% 2%;
+  max-width: 20%;
+  background:linear-gradient(120deg,#d0f01e 20%, #e7ecea 50%, #d0f30c 80%);
+  text-align: center;
+  text-shadow: 1 1 #157415;
+}
+
+
+
+.coupon-btn {
+  border: 1px solid white;
+  color: rgb(15, 15, 15);
+  margin: 10px;
+  padding:10px;
+  font-variant: small-caps;
+  border-radius: 20px;
+
+}
+
+.coupon-btn:hover {
+  box-shadow: 0 0 10px 5px rgb(77, 235, 227) inset;
+}
+
+.images {
+  display: inline-block;
+
+
+}
+.item-image-size {
+  height: 200px;
+  width: 300px;
+  padding: 5px;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.buynow-btn {
+  border: 1px solid #184d47;
+  background: #184d47;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+}
+.buynow-btn:hover {
+  border: 1px solid #5b8c5a;
+  box-shadow: 0 0 5px 5px #5b8c5a inset;
+
+}
+#good {
+  text-align: center;
+  
+}
+.items { 
+  width:max-content;
+  margin: 50px;
+  border: 2px solid #26cccc;
+  border-radius: 50px 50px 50px 50px;
+  display: inline-block;
+  text-align: center;
+}
